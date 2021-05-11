@@ -1,0 +1,24 @@
+{
+  "name": "teste-concerts",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./api/main.js",
+  "scripts": {
+    "start": "node ./api/main.js",
+    "dev": "nodemon -L ./api/main.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "~4.3.1",
+    "dotenv": "^8.2.0",
+    "express": "~4.17.1",
+    "helmet": "^4.6.0",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  }
+}
